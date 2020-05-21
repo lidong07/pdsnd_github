@@ -19,3 +19,7 @@ Data for the three cities are provided by
 * [Motivate](https://www.motivateco.com/)
 
 Motivate is a bike share system provider for many major cities in the United States, to uncover bike share usage patterns.
+
+### Software required
+* Python 3, NumPy, and pandas installed using Anaconda
+* A terminal application (Terminal on Mac and Linux or Cygwin on Windows)
