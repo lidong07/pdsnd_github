@@ -20,7 +20,7 @@ def get_filters():
     city = input('Would you like to see data from chicago, new york city or washington?\n').lower()
     while city not in ('chicago', 'new york city', 'washington'):
         print('Please key in a correct city name')
-        city = input('would you like to see data from chicago, new york city or washington?\n').lower()
+        city = input('Would you like to see data from chicago, new york city or washington?\n').lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Which month would you like to see data from?\nPlease choose from january, february, march, april, may, june or all.\n').lower()
@@ -129,7 +129,7 @@ def time_stats(df):
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\nCalculating The Most Popular and Least Commonly Used Stations and Trip...\n')
     start_time = time.time()
 
     # TO DO: display most commonly used start station
