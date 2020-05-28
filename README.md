@@ -29,3 +29,8 @@ The original files are much larger and messier. They can be accessed here:
 ### Software required
 * Python 3, NumPy, and pandas installed using Anaconda
 * A terminal application (Terminal on Mac and Linux or Cygwin on Windows)
+
+
+### What to do
+1. run bikeshare.py from your shell
+2. follow the instructions and enter the city you would like to explore
